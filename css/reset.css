@@ -1,0 +1,41 @@
+
+        body{
+          
+        font-size: 12px;
+        }
+        body,h1,h2,h3,h4,h5,h6,ul,ol,dd,th,th,td,p{
+            margin: 0;
+            padding:0;
+        }
+
+        ul,ol{
+            list-style:none;
+        }
+        em,i{
+            font-style: normal;
+            padding:0;
+            margin:0;
+        }
+        b,strong,h1,h2,h3,h4,h5,h6{
+
+            font-weight: normal;
+        }
+        u,s{
+            text-decoration: none;
+        }
+        a{
+
+            text-decoration: none;
+        }
+        img{
+            border:0;
+        }
+        .f-clear:before,.f-clear:after{
+            content: '';
+            display: block;
+            clear: both;
+            overflow: hidden;
+            font-size: 0;
+            height:0;
+            line-height:0;
+        }

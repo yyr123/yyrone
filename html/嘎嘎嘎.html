@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传图片</title>
+</head>
+<body>
+<input type="file" id="uploadPhoto" name="uploadPhoto">
+<input type="button" id="txt" onclick="ff()">
+<!--<div id="box"><img /></div>-->
+
+<script type="text/javascript">
+
+     $('input').click(function () {
+     console.log( name)
+
+     });
+//    $.ajax({
+//        type: 'post',
+//        url: 'http://www.zhijunxing.com/yiju/landlordLogin.action',
+//        dataType: 'jsonp',
+//        data: {
+//            lname: '134567',
+//            lpassword: '134567'
+//        },
+//        success: function (data) {
+//            console.log(data);
+//
+//        }
+//    });
+//    $.ajax({
+//        type: 'post',
+//        url: 'http://www.zhijunxing.com/yiju/loginSession.action',
+//        dataType: 'jsonp',
+//        success: function (data) {
+//            console.log(data);
+//
+//        }
+//    });
+//    function ff(){
+//        $.ajaxFileUpload({
+//            type: 'post',
+//            url: 'http://www.zhijunxing.com/yiju/uqdateLandlord.action',
+//            secureuri: false,
+//            fileElementId:'uploadPhoto',
+//            async: true,
+//            cache: true,
+//            dataType: 'json',
+//            contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+//            success: function(data){
+//                console.log(data);
+//
+//            }
+//        });
+//    }
+
+
+
+
+
+    //    $('#file').change(function () {
+    //
+    ////
+    ////        if (typeof FileReader == undefined) {
+    ////            alert('浏览器不支持FileReader对象');
+    ////        }
+    ////
+    ////
+    ////        var reader = new FileReader(),
+    ////            val    = $(this).get(0).files[0];
+    ////        reader.readAsDataURL(val);
+    ////        reader.onload = function () {
+    ////            $('#box img').attr('src',reader.result);
+    //////            $.ajaxFileUpload({
+    ///////*
+    //////
+    //////                type: 'post',
+    //////                url: 'http://www.zhijunxing.com/yiju/uqdateLandlord.action',
+    //////                secureuri: false,
+    //////                fileElementId:'uploadPhoto',
+    //////                async: true,
+    //////                cache: true,
+    //////                dataType: 'json',
+    //////                contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+    //////
+    //////*/
+    //////
+    //////
+    //////
+    //////                type: 'post',
+    //////                url: 'http://www.zhijunxing.com/yiju/uqdateLandlord.action',
+    //////                secureuri:false,
+    //////                fileElementId: 'file',
+    //////                async:true,
+    //////                cache:true,
+    //////                dataType: 'json',
+    //////                contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+    //////                success: function (data) {
+    //////                    console.log(data);
+    //////
+    //////                }
+    //////            })
+    ////
+    ////
+    ////
+    ////
+    ////        }
+    ////
+    //
+    //    });
+    //    //alert(typeof FileReader)
+
+
+</script>
+</body>
+</html>

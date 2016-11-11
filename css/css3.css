@@ -1,0 +1,88 @@
+.left-block{
+    width:190px;
+    height:320px;
+    border:1px solid #cccccc;
+    margin-top:20px;
+    border-radius: 5px ;
+    text-align: center;
+    font-size: 14px;
+    color:#333333;
+    float: left;
+}
+.left-block-p{
+    width:80px;
+    height:80px;
+    background: #cccccc url(../img/renwu1.png) no-repeat 10px 15px ;
+    margin:20px auto 0 auto;
+    border-radius: 5px ;
+
+}
+.block-p1{
+    line-height: 36px;
+
+}
+.block-p2 {
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.right-block{
+    width:908px;
+    height:446px;
+    border:1px solid #cccccc;
+    margin-top:20px;
+    border-radius: 5px ;
+    float: right;
+    padding:0 20px 0 20px;
+
+}
+.right-block-p1{
+    line-height:48px ;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.hangbiao{
+    line-height:40px;
+    width:906px;
+    background: #eeeeee;
+    font-size: 14px;
+}
+.hangbiao span{
+
+    padding: 10px 24px;
+    color:#7c7c7c;
+    cursor: pointer;
+    margin:0;
+
+}
+.right-block-p2{
+    width:105px;
+   line-height:35px;
+    border-radius:5px;
+    background:#eeeeee;
+    margin-top:30px;
+    color:#7c7c7c;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.right-block-img{
+    width:180px;
+    height:180px;
+    margin-top:10px;
+}
+.right-block-p3{
+    font-size: 15px;
+    color:#7c7c7c;
+    margin-top:20px;
+    display: block;
+}
+.right-block-p3 span{
+
+    padding:12px 35px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

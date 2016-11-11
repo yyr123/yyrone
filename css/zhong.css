@@ -1,0 +1,350 @@
+.left-block{
+    width:190px;
+    height:320px;
+    border:1px solid #cccccc;
+    margin-top:20px;
+    border-radius: 5px ;
+    text-align: center;
+    font-size: 14px;
+    color:#333333;
+    float: left;
+}
+.left-block-p{
+    width:80px;
+    height:80px;
+    background: #cccccc url(../img/renwu1.png) no-repeat 10px 15px ;
+    margin:20px auto 0 auto;
+    border-radius: 5px ;
+
+}
+.left-block-p img{
+    width:100%;
+    height:100%;
+
+}
+.block-p1{
+    line-height: 36px;
+
+}
+.block-p2 {
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.right-block{
+    width:908px;
+    /*height:1308px;*/
+    border:1px solid #cccccc;
+    margin-top:20px;
+    border-radius: 5px ;
+    float: right;
+    padding:0 20px 30px 20px;
+
+}
+.right-block-p1{
+    line-height:48px ;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.hangbiao{
+    line-height:40px;
+    width:906px;
+    background: #eeeeee;
+    font-size: 14px;
+}
+.hangbiao span{
+
+    padding: 11px 25px;
+    color:#7c7c7c;
+    cursor: pointer;
+    margin:0;
+
+}
+
+.right-block-p2{
+    width:105px;
+    line-height:35px;
+    border-radius:5px;
+    background:#eeeeee;
+    margin-top:20px;
+    color:#7c7c7c;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+
+
+}
+#uploadPhoto{
+
+    position: absolute;
+    left: 1px;
+    top: 28px;
+    opacity: 0;
+}
+.uploadp{
+
+    position: relative;
+
+}
+
+
+.right-block-img{
+    width:180px;
+    height:180px;
+    margin-top:10px;
+}
+.right-block-p3{
+    font-size: 15px;
+    color:#7c7c7c;
+    margin-top:20px;
+    display: block;
+}
+.right-block-p3 span{
+
+    padding:10px 35px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.z-block{
+    margin-top:30px;
+    width:902px;
+    height:192px;
+    border-bottom:1px solid #e0e0e0 ;
+
+}
+.z-block img{
+    width:218px;
+    height:160px;
+    float: left;
+    margin-right: 24px;
+}
+.z-block-zo h1{
+  font-size: 15px;
+  font-weight: bold;
+    margin-bottom:10px ;
+}
+.z-block-zo p{
+    line-height: 30px;
+    color:#5a5a5a;
+
+}
+.z-block-p1{
+    margin-bottom:10px ;
+}
+
+
+
+.z-block-zo a{
+    width:44px;
+    line-height:24px;
+    padding:4px 11px;
+    margin-right:8px;
+    border-radius: 2px;
+
+
+
+}
+.z-block-zo .a1{
+    border:1px solid #ffa422;
+    color:#ffa422;
+}
+.z-block-zo .a2{
+    border:1px solid #75a749;
+    color:#75a749;
+}
+
+
+
+.z-block-r{
+   float: right;
+    text-align: right;
+
+}
+
+.z-block-r span{
+    width:66px;
+    line-height:24px;
+    border:1px solid #cccccc;
+    border-radius: 2px;
+    color:#666666;
+    padding:6px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.z-p1{
+    color:#666666;
+    margin-left: 98px;
+    margin-top: 10px;
+
+}
+.z-p{
+    color:#eb5f00;
+    margin-left: 46px;
+    margin-top: 28px;
+
+}
+.z-p strong{
+    font-size: 24px;
+    font-weight: bold;
+}
+.z-block-ul{
+    list-style:none ;
+
+
+}
+.right-block-ul{
+    margin-top: 40px;
+
+
+}
+.right-block-ul a{
+
+    padding: 8px 11px;
+    border:1px solid #cccccc;
+    margin-right:8px;
+
+}
+.right-dv{
+    text-align: center;
+   vertical-align: middle;
+
+}
+
+.page-checked{
+    background: #00E1FF;
+}
+
+.z-block-zo h1 span{
+    color:orange;
+}
+.z-block-zo h1 i{
+
+    height: 22px;
+    background-image: url(../img/xuebi.png);
+    position: relative;
+    top: 2px;
+    left: 10px;
+    display: inline-block;
+}
+.li{
+    width:52px;
+}
+
+.li1{
+    width:26px;
+    background-position:26px -1px ;
+}
+.li2{
+    width:26px;
+    background-position:51px 1px ;
+}
+
+.span-1 a{
+
+    color:#ffffff;
+
+}
+
+.changepsw input{
+    width:226px;
+    height:34px;
+    border:1px solid #cccccc;
+    border-radius:5px ;
+
+}
+.changepsw p{
+    margin:20px 0px;
+    font-size:14px;
+    color:#5a5a5a;
+
+}
+.SetNickname p{
+    margin:46px 0px;
+    font-size:14px;
+    color:#5a5a5a;
+
+}
+.SetNickname input{
+    width:226px;
+    height:34px;
+    border:1px solid #cccccc;
+    border-radius:5px ;
+
+}
+.SetNickname{
+    height:156px;
+}
+
+.dialog{
+    width:266px;
+    height:154px;
+    border:1px solid #cccccc;
+    background: #ffffff;
+    position: fixed;
+    top:28%;
+    left:646px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 16px;
+    display: none;
+
+}
+
+
+.dialog img{
+    float: right;
+    cursor: pointer;
+}
+
+.dialog h1{
+
+    margin-top: 42px;
+    margin-left: 40px;
+    position: relative;
+    font-size: 18px;
+
+}
+.dialog h1 i{
+    width:30px;
+    height:30px;
+    background: url(../img/dui.png);
+    position:absolute ;
+    left: 22px;
+    top: -1px;
+}
+.dialog button{
+    width:90px;
+    height:30px;
+    background: #999999;
+    border:none;
+    color:#ffffff;
+    margin-top: 38px;
+    margin-left: 12px;
+
+}
+.dialog button:hover{
+    background: #75a749;
+ }
+#uul{
+    width: 60px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    position: absolute;
+    top: 45px;
+    left: 469px;
+    border-radius: 5px;
+    text-indent: 10px;
+    display: none;
+}
+#uul li{
+
+    font-size: 13px;
+    color:#000;
+    cursor: pointer;
+    margin-left: 8px;
+}

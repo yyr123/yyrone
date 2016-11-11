@@ -1,0 +1,110 @@
+.head-1{
+    background: #75a749;
+    min-width: 1250px;
+}
+.tbox{
+    margin: 0 auto ;
+    width:1150px;
+}
+
+.box{
+    margin:0 auto;
+    width:1150px;
+    height:46px;
+    color:#fff;
+    padding-top:10px;
+
+}
+.box .xue1{
+
+    width:150px;
+    height:38px;
+    background: url(../img/logo.png) no-repeat;
+    float:left;
+
+}
+.span-1{
+
+    float:right;
+    font-size:13px;
+    font-weight:bold;
+
+
+}
+.a{
+    border:1px solid #fff;
+    height:9px;
+    display:inline-block;
+    margin-top: 4px;
+
+}
+.in{
+    width:630px;
+    line-height:36px;
+    background: #ffffff;
+    margin-left:254px;
+    border-radius: 5px;
+    padding-left:24px;
+
+
+}
+.in .co1{
+    color:#000000;
+    cursor: pointer;
+
+}
+
+.in .daojiao{
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 5px solid #9a9a9a;
+    border-right: 5px solid rgba(225, 225, 225, 0);
+    border-bottom: 5px solid rgba(225, 225, 225, 0);
+    border-left: 5px solid rgba(225, 225, 225, 0);
+}
+
+
+.b{
+    border:1px solid #cfcfcf;
+    margin-left: 12px;
+}
+.in input{
+    width:436px;
+    height:24px;
+    color:#b6b6b6;
+    text-indent:15px ;
+    border:1px solid #fff;
+}
+.in .anniu{
+    width:124px;
+    height:36px;
+    background: #5b8239;
+    color:#fff;
+    float: right;
+    border:1px solid #75a749;
+    border-radius:0 5px 5px 0;
+    font-size:18px;
+
+}
+.in i{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/sou.png);
+    vertical-align: middle;
+
+}
+.span-1{
+
+    float:right;
+    font-size:13px;
+    font-weight:bold;
+    margin-top:10px;
+
+
+}
+.a{
+    border:1px solid #fff;
+    height:9px;
+    display:inline-block;
+}

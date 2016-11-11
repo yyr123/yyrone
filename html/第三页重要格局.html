@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/zhong.css">
+<!--注意：要先连jq  源代码，然后再引入  上传照片插件-->
+    <script type="text/javascript" src="../js/jquery-1.8.0.js"></script>
+    <script  type="text/javascript" src="../js/ajaxfileupload.js"></script>
+</head>
+<body>
+<!--这是头部-->
+<div class="head-1">
+    <div class="box f-clear">
+        <i class="xue1"></i>
+        <div class="span-1">
+            <a href="###" class="ni">我是昵称</a>
+            <span class="a"></span>
+            <a href="###">注册</a>
+        </div>
+        <div class="in ">
+            <span class="co1">郑州</span>
+            <span class="daojiao"></span>
+            <span class="b"></span>
+            <input type="text" value="请输入小区名称/区域/厅室" >
+            <ul id="uul">
+                <li>北京</li>
+                <li>上海</li>
+                <li>南京</li>
+                <li>山东</li>
+                <li>商丘</li>
+                <li>永城</li>
+                <li>周口</li>
+            </ul>
+
+
+
+
+            <button class="anniu">
+                <i></i>
+                搜房源
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<div class="tbox f-clear">
+    <div class="left-block">
+
+        <p class="left-block-p">
+            <img src="" alt="" >
+        </p>
+
+        <h4 class="block-p1"> 我是昵称</h4>
+        <p class="block-p2" id="co">我的收藏</p>
+        <p class="block-p2">我的发布</p>
+        <p class="block-p2">浏览历史-</p>
+        <p class="block-p2">编辑资料</p>
+    </div>
+
+
+    <ul id="ulul">
+        <!--这是我的收藏-->
+        <li>
+            <div class="right-block">
+            <p class="right-block-p1">我的收藏</p>
+            <div class="hangbiao">
+                <span>全部</span>
+                <span>价格</span>
+                <span>面积</span>
+            </div>
+
+
+        <div id="collect">
+            <!--<div class="z-block f-clear">-->
+                <!--<img src="../img/2.png" alt="">-->
+                <!--<div class="z-block-r">-->
+                    <!--<span id="dl">删除</span>-->
+                    <!--<span>编辑</span>-->
+                    <!--<p class="z-p"><strong>2800</strong>/月</p>-->
+                    <!--<p class="z-p1">今天</p>-->
+                <!--</div>-->
+                <!--<div class="z-block-zo">-->
+                    <!--<h1>曼哈顿 地铁口 家电齐全 三室两厅<span>（个人）</span><i class="li1"></i></h1>-->
+                    <!--<p>3室2厅|合租|豪华装修|15/32层 </p>-->
+                    <!--<p class="z-block-p1"> 曼哈顿 ［金水-燕庄 金水路未来路交汇处］</p>-->
+                    <!--<a href="" class="a1">精装修</a>-->
+                    <!--<a href="" class="a2">地铁口</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+
+
+
+            <div class="right-dv">
+                <div class="right-block-ul" id="collect_page">
+
+                </div>
+            </div>
+
+        </div>
+        </li>
+
+        <!--这是我的发布-->
+        <li style="display: none"><div class="right-block">
+            <p class="right-block-p1">我的发布</p>
+            <div class="hangbiao">
+                <span>全部</span>
+                <span>价格</span>
+                <span>面积</span>
+            </div>
+
+            <div class="z-block f-clear">
+                <img src="../img/3.png" alt="">
+                <div class="z-block-r">
+                <span>删除</span>
+                <span>编辑</span>
+                    <p class="z-p"><strong>2800</strong>/月</p>
+                    <p class="z-p1">今天</p>
+                </div>
+                <div class="z-block-zo">
+                <h1>曼哈顿 地铁口 家电齐全 三室两厅 <i class="li"></i></h1>
+                <p>3室2厅|合租|豪华装修|15/32层 </p>
+                  <p class="z-block-p1"> 曼哈顿 ［金水-燕庄 金水路未来路交汇处］</p>
+                    <a href="#" class="a1">精装修</a>
+                    <a href="#" class="a2">地铁口</a>
+               </div>
+            </div>
+
+
+
+
+
+            <div class="right-dv">
+                <div  class="right-block-ul">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#"><span>...</span></a>
+                    <a href="#">100</a>
+                    <a href="#">下一页</a>
+                </div>
+            </div>
+
+        </div></li>
+
+        <!--这是浏览历史-->
+        <li style="display: none">
+            <div class="right-block">
+            <p class="right-block-p1">浏览历史</p>
+
+
+            <div class="z-block f-clear">
+                <img src="../img/3.png" alt="">
+                <div class="z-block-r">
+                    <span>删除</span>
+                    <span>编辑</span>
+                    <p class="z-p"><strong>2800</strong>/月</p>
+                    <p class="z-p1">今天</p>
+                </div>
+                <div class="z-block-zo">
+                    <h1>曼哈顿 地铁口 家电齐全 三室两厅<i class="li2"></i></h1>
+                    <p>3室2厅|合租|豪华装修|15/32层 </p>
+                    <p class="z-block-p1"> 曼哈顿 ［金水-燕庄 金水路未来路交汇处］</p>
+                    <a href="" class="a1">精装修</a>
+                    <a href="" class="a2">地铁口</a>
+                </div>
+            </div>
+                <div class="right-dv">
+                    <div class="right-block-ul">
+                        <a href="###">1</a>
+                        <a href="###">2</a>
+                        <a href="###">3</a>
+                        <a href="###">4</a>
+                        <a href="###">5</a>
+                        <a href="###"><span>...</span></a>
+                        <a href="###">100</a>
+                        <a href="###">下一页</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </li>
+
+       <!--这是编辑资料   -->
+        <li style="display: none"><div class="right-block bianji">
+            <p class="right-block-p1">编辑资料</p>
+            <div class="hangbiao">
+                <span>上传头像</span>
+                <span>修改昵称</span>
+                <span>修改密码</span>
+            </div>
+
+
+         <ul id="bjxuan">
+             <li   class="uploadp">
+                     <div id="tutu">
+                        <button class="right-block-p2">选择照片</button>
+                        <input type="file" id="uploadPhoto" name="uploadPhoto" />
+                     </div>
+                     <img src="../img/ren2.png" alt="" class="right-block-img">
+
+                    <div class="right-block-p3">
+                        <span id="cuntu">保存</span>
+                        <span>取消</span>
+                    </div>
+
+             </li>
+
+
+             <li style="display: none" class="SetNickname">
+
+                    <p>设置昵称：  <input type="text"></p>
+                    <div class="right-block-p3">
+                    <span id="baoming">保存</span>
+                    <span>取消</span>
+                    </div>
+             </li>
+             <li style="display: none"  class="changepsw">
+
+                 <p>当前密码：  <input type="password"></p>
+                 <p>　新密码：<input type="password" style="margin-left:3px"></p>
+                 <p>再次输入：  <input type="password"></p>
+                 <div class="right-block-p3">
+                     <span id="baomi">保存</span>
+                     <span>取消</span>
+                 </div>
+              </li>
+         </ul>
+
+
+
+
+
+</div>
+        </li>
+    </ul>
+</div>
+<!--这是尾部-->
+<div class="hou">
+    <div class="box5">
+        <div class="f-ll">
+            <p>友情链接：武汉租房   厨房电器品牌   房展汇   36搜房网   无锡二手车
+                合肥房产网   房产论坛   租房问答 </p>
+            <p>武汉租房   厨房电器品牌   房展汇   36搜房网   无锡二手车
+                合肥房产网   房产论坛   租房问答 </p>
+            <p class="xian">   </p>
+            <p >北京易居房产经纪有限公司 | 网络经营许可证 京ICP备11024601号-12</p>
+            <p> © Copyright©2010-2016</p>
+
+        </div>
+        <div class="f-rr">
+            <img src="../img/111.png" alt="">
+            <p>微信扫一扫  马上租房</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="dialog">
+    <img src="../img/cha.png" alt="" class="ca">
+    <h1>
+        <i></i>
+        密码修改成功
+    </h1>
+    <button>确定</button>
+    <button>取消</button>
+
+
+  </div>
+
+
+
+<div class="dialog">
+    <img src="../img/cha.png" alt="" class="ca">
+    <h1>
+        <i></i>
+       确定删除么？
+    </h1>
+    <button>确定</button>
+    <button>取消</button>
+
+
+</div>
+
+
+<script type="text/javascript" src="../js/02.js">
+
+
+
+
+
+</script>
+</body>
+</html>

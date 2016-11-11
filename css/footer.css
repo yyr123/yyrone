@@ -1,0 +1,36 @@
+.hou{
+    margin-top:40px;
+    background: #242623;
+      /*height:226px;*/
+    color:#cccccc;
+    font-size: 12px;
+    min-width: 1250px;
+}
+.box5{
+    margin:0 auto;
+    width:1150px;
+    padding: 16px 0px;
+    line-height: 38px;
+    overflow: hidden;
+
+}
+.f-ll{
+    float:left;
+
+}
+.f-ll .xian{
+    border-top:1px solid #444444;
+    width:910px;
+    margin-top:32px;
+    margin-bottom: 20px;
+
+
+}
+.f-rr img{
+    border:2px solid #ffffff;
+
+}
+.f-rr{
+    float:right;
+    text-align: center;
+}

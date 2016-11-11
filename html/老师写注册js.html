@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>易居-登陆</title>
+    <link rel="stylesheet" href="http://192.168.0.157/css/common.css">
+    <link rel="stylesheet" href="http://192.168.0.157/css/register.css">
+    <link rel="stylesheet" href="http://192.168.0.157/css/login.css">
+</head>
+<body>
+<div class="big-bg">
+
+    <div class="register-top">
+        <a href="http://192.168.0.157/homepage.html">
+            <img src="http://192.168.0.157/img/logo2.png" alt="">
+        </a>
+        <i class="user"></i>
+        <span>欢迎登陆</span>
+    </div>
+    <form action="">
+        <div class="register-content login-content">
+            <h2>用户登录</h2>
+           <span>
+                <em>* </em>用户名：
+                <s class="clear">
+                    <input type="text" name="lname" class="input-1" autocomplete="off" value=""/>
+                    <i class="user"></i>
+                </s>
+            </span>
+            <span>
+                <em>* </em>请输入密码：
+                <s class="clear">
+                    <input type="password" class="input-2" name="lpassword" autocomplete="off" value=""/>
+                    <i class="pw"></i>
+                </s>
+            </span>
+            <span class="verification">
+                <em>* </em>输入验证码：
+                <s class="clear ">
+                    <input type="text" value=""/>
+                </s>
+                <b>验证码</b>
+                <a href="###">换一张</a>
+            </span>
+            <u class="xieyi">
+                <b></b>
+                阅读并同意<a class="xieyi-a" href="###">服务协议</a>
+                <a href="http://192.168.0.157/register.html">注册</a>
+                <u></u>
+                <a class="xieyi-color" href="###">找回密码</a>
+            </u>
+            <input class="submit" type="button" value="登录">
+            <p>
+                ------------------ 使用合作网站账号登陆 -------------------
+            </p>
+            <div class="else">
+                <a class="qq" href="###"></a>
+                <a class="weibo" href="###"></a>
+                <a class="weixin" href="###"></a>
+            </div>
+        </div>
+
+    </form>
+</div>
+<div class="home-bottom">
+    <div class="bottom-out clear">
+        <div class="bottom-l">
+            <p class="bottom-l-p1">
+                友情链接：
+                <a href="###">武汉租房</a>　
+                <a href="###">厨房电器品牌</a>　
+                <a href="###">房展汇</a>　
+                <a href="###">36搜房网</a>　
+                <a href="###">无锡二手车</a>　
+                <a href="###">合肥房产网</a>　
+                <a href="###">房产论坛</a>　
+                <a href="###">租房问答</a>　
+                <a href="###">郑州租房</a>　
+                <a href="###">郑州房价</a>　
+                <a href="###">好租</a>　
+                <a href="###">郑州租房</a>　
+                <a href="###">密封胶</a>　<br/>
+                <a href="###">南山写字楼</a>　
+                <a href="###">罗湖写字楼</a>　
+                <a href="###">上海写字楼出租</a>　
+                <a href="###">广州写字楼出租</a>　
+                <a href="###">北京办公室出租</a>　
+                <a href="###">深圳写字楼出租</a>　
+                <a href="###">房产季</a>　
+                <a href="###">好租</a>　
+            </p>
+            <span></span>
+            <p>
+                北京易居房产经纪有限公司 | 网络经营许可证 京ICP备11024601号-12 <br/>
+                © Copyright©2010-2016 易居yiju.com版权所有
+            </p>
+        </div>
+        <div class="bottom-r">
+            <img src="http://192.168.0.157/img/二维码.png" alt="">
+            <p>微信扫一扫 马上租房</p>
+        </div>
+    </div>
+</div>
+<script src="http://lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $('#com-search-span').on({
+        'mouseenter': function () {
+            $('#com-search-span ul').stop(false, true).slideDown();
+        }, 'mouseleave': function () {
+            $('#com-search-span ul').stop(false, true).slideUp();
+        }
+    });
+
+    $('#com-search-span li').click(function () {
+                $('#com-search-span em').text($(this).text());
+                $('#com-search-span ul').stop(false, true).slideUp();
+            }
+    );
+
+
+
+
+
+
+
+    //这是对  空标签b  添加一个类标签，循环添加  或者移除，完成复选框的效果。
+
+    $('.xieyi b').toggle(
+            function () {
+                $(this).addClass('xieyi-checked')
+            }, function () {
+                $(this).removeClass('xieyi-checked')
+            }
+    );
+//
+       //这是增加类标签的  css样式
+//    .xieyi b {
+//        width: 14px;
+//        height: 13px;
+//        display: inline-block;
+//        background: url("../img/icon.png") -22px 51px;
+//        vertical-align: -2px;
+//        cursor: pointer;
+
+//    .xieyi .xieyi-checked {
+//        background: url("../img/icon.png") 0px 51px;
+//    }
+
+
+    /*------------------------------------------------------------------------------------*/
+
+
+
+
+
+    var off = {};
+
+    $('form input[name=lname]').on({
+        focus: function () {
+            $(this).parent().css({
+                'border-color': 'rgb(112, 173, 70)'
+            });
+        },
+        blur: function () {
+            var val = $(this).val();
+            isinput(/[\w]{6,20}/.test(val), this);
+        }
+    }).focus();
+
+
+    $('form input[name=lpassword]').on({
+        focus: function () {
+            // console.log($(this).tagName);
+            $(this).parent().css({
+                'border-color': 'rgb(112, 173, 70)'
+            })
+        },
+        blur: function () {
+            var val = $(this).val();
+            isinput(/^[a-zA-Z0-9][\w]{5,19}/.test(val), this);
+
+        }
+    });
+
+    function isinput(put, _this) {
+        if (put) {
+            $(_this).parent().css({
+                'border-color': 'rgb(112, 173, 70)'
+            });
+            off[_this.className] = true
+        } else {
+
+            $(_this).parent().css({
+                'border-color': '#981616'
+            });
+            off[_this.className] = false;
+        }
+
+    }
+
+    $('form .submit').click(function () {
+
+        var isform = true;
+        for (var i in off) {
+            if (!off[i]) {
+                isform = false;
+            }
+        }
+
+
+    //这是用雪碧图定位 代替 复选框的按钮效果，原来是一个空的标签，
+        // 当点击的时候，雪碧图定位变化到指定的位置，完成 按钮的效果。
+
+
+        if (!$('.xieyi b').attr('class') == '') {
+            isform = false;
+
+        }
+
+
+        if (isform) {
+            $.ajax({
+                type: 'post',
+                url: 'http://www.zhijunxing.com/yiju/landlordLogin.action',
+                dataType: 'jsonp',
+                data: $('form').serialize(),
+                success: function (data) {
+                    if (data.resultCode == 0000) {
+                        location.href = 'http://192.168.0.175/yiju/01/index1.html'
+
+                    } else {
+                        alert('失败')
+                    }
+                }
+            })
+        }
+    })
+
+
+</script>
+</body>
+</html>
